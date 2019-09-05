@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1 style="font-family: 'monotype corsiva';">SUMMARY</h1>
+    <div>
+        <h3 style="font-family: 'monotype corsiva';">INTRODUCTION</h3>
+    <p>
+        The first chapter introduced four types of javascript values: booleans, strings, numbers and undefined values. 
+        These values can be created by typing in their names, for example (null, true) or value, (12, "abc").
+        I also learnt about operators and logic.
+    </p>
+    <p>
+        Programs are built with statements, statements contain expressions.
+        Using statements one after the other allows the program to be executed from top to bottom, 
+        disturbances can be brought into the flow using conditional and looping statements like
+        (if, else, switch) and (while, do, for).
+        Bindings are used to file pieces of data under a name and are useful for tracking state in programs.
+        Functions are special values that contain a piece of program.
+        You can call a function by writing functionName(argument).
+    </p>
+    </div>
+    <h3 style="font-family: 'monotype corsiva';">FUNCTIONS</h3>
+    <p>
+        Functions are createdwith expressions that begin with the keyword <b>function</b>. they have a set of a parameters and 
+        a body that contains the statements that are to be executed when the function is called. the <b>function</b> body must 
+        always be wrapped in braces({}), even when it only consists of a single statement.
+        A  funtion can have many parameters or no parameters at all.
+    </p>
+    <p>
+        Every binding has a scope, the scope is part of the program in which the binding is visible. if a binding is defined 
+        outside a function or block, the scope is the whole program. they are called global because one can refer to them anywhere.
+        Bindings created for function parameters or defined inside a funtion can only be referred to in that function, hence they are called local.
+        When bindings are created with <b>let</b> and <b>const</b>, they are local to that block they are declared in,
+        so if one is created inside a loop, the codes before and after the loop can't 'see' it.
+    </p>
+    <p>
+        Lexical scoping is when each local scope can see all the local scopes that contain it and all scopes can see the global scope.
+        Being able to reference a specific instance of a local binding in an enclosing scope is called a closure.
+        To fully understand functins, one has to understand scopes, each block creates a new scope. 
+        Parameters and bindings declared in a scope are local and aren't visible from the outside. Bindings declared with <b>var</b> 
+        behave differently. They end up in the nearest function scope or the global scope.
+    </p>
+    <div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
