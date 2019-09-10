@@ -1,11 +1,16 @@
 // exercise 1
-let figure = "#";
-    console.log(figure);
-    console.log(figure + "#");
-    console.log(figure + "#" + "#");
-    console.log(figure + "#" +"#" + "#");
-    console.log(figure + "#" + "#" + "#" + "#");
-    console.log(figure + "#" + "#" + "#" + "#" + "#");
+var a = '';
+
+for (var i = 0; i <= 6; i++) {
+  a += '#';
+  console.log(a);
+}
+//ignore
+// var hot = '';
+// for (var a = 0; a <=3; a++) {
+//     hot += '^';
+//     console.log(hot);
+// }
 
 // exercise 2
 // printing numbers from 1 to 100
